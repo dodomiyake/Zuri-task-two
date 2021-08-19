@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zuri - Application to join a team</title>
+</head>
+<body>
+    <div class="testbox">
+        <form action="/">
+          <div class="banner">
+            <div>
+              <a href="https://internship.zuri.team/" target=”_blank”><img src="./img/zurilogo.png" alt=""></a>
+            </div>
+            <div>
+              <h1>Application to join a team</h1>
+            </div>
+          </div>
+          <p class="top-info">Thank you for your interest in joining the team.</p>
+          <div class="item">
+            <p>Name<span class="required">*</span></p>
+            <div class="name-item">
+              <input type="text" name="name" placeholder="First" required/>
+              <input type="text" name="name" placeholder="Last" required/>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="item">
+              <p>Email<span class="required">*</span></p>
+              <input type="text" name="name" required/>
+            </div>
+            <div class="item">
+              <p>Phone<span class="required">*</span></p>
+              <input type="text" name="name" required/>
+            </div>
+          </div>
+          
+          <div class="question">
+            <p>What is your current Zuri Track?<span class="required">*</span></p>
+            <div class="question-answer">
+              <div>
+                <input type="radio" value="none" id="radio_1" name="status" required/>
+                <label for="radio_1" class="radio"><span>Frontend Track</span></label>
+              </div>
+              <div>
+                <input type="radio" value="none" id="radio_2" name="status" required/>
+                <label for="radio_2" class="radio"><span>Backend Track</span></label>
+              </div>
+              <div>
+                <input type="radio" value="none" id="radio_3" name="status" required/>
+                <label for="radio_3" class="radio"><span>Mobile Track</span></label>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="btn-block">
+            <button type="submit" href="/">Click to join team</button>
+          </div>
+        </form>
+      </div>
+    
+</body>
+</html>
